@@ -1,5 +1,5 @@
 {
-  "name": "shorturl-pro",
+  "name": "url-shortener-pro",
   "version": "0.0.1",
   "description": "Full blown short URL generator",
   "main": "server.js",
