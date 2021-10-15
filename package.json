@@ -4,6 +4,7 @@
   "description": "Full blown short URL generator",
   "main": "server.js",
   "scripts": {
+    "clean": "rm -rf node_modules packages/*/node_modules packages/*/dist",
     "bootstrap": "lerna bootstrap"
   },
   "dependencies": {
