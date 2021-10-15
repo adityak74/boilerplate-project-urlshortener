@@ -1,0 +1,24 @@
+{
+    "name": "keys-generator-service",
+    "version": "0.0.1",
+    "description": "A simple key generator service for short URL generator core",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "body-parser": "1.19.0",
+        "cors": "2.8.5",
+        "dotenv": "8.2.0",
+        "express": "4.17.1"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "7.15.8",
+        "@babel/preset-env": "7.15.8",
+        "babel-loader": "8.2.2",
+        "lerna": "4.0.0",
+        "nodemon": "2.0.4",
+        "webpack": "5.58.2"
+    }
+}
